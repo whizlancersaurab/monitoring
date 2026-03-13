@@ -103,7 +103,7 @@ function DashboardCard02() {
         </div>
       </div>
       {/* Chart built with Chart.js 3 */}
-      <div className="grow max-sm:max-h-[128px] max-h-[128px]">
+      <div className="grow max-sm:max-h-32 max-h-32">
         {/* Change the height attribute to adjust the chart height */}
         <LineChart data={chartData} width={389} height={128} />
       </div>
