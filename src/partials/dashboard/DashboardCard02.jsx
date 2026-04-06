@@ -1,8 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+
 import LineChart from '../../charts/LineChart01';
 import { chartAreaGradient } from '../../charts/ChartjsConfig';
-import EditMenu from '../../components/DropdownEditMenu';
+
 
 // Import utilities
 import { adjustColorOpacity, getCssVariable } from '../../utils/Utils';
@@ -78,7 +77,7 @@ function DashboardCard02() {
         <header className="flex justify-between items-start mb-2">
           <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mb-2">Acme Advanced</h2>
           {/* Menu button */}
-          <EditMenu align="right" className="relative inline-flex">
+          {/* <EditMenu align="right" className="relative inline-flex">
             <li>
               <Link className="font-medium text-sm text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-200 flex py-1 px-3" to="#0">
                 Option 1
@@ -94,7 +93,7 @@ function DashboardCard02() {
                 Remove
               </Link>
             </li>
-          </EditMenu>
+          </EditMenu> */}
         </header>
         <div className="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase mb-1">Sales</div>
         <div className="flex items-start">

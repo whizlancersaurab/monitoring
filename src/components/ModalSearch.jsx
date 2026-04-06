@@ -95,8 +95,8 @@ function ModalSearch({
               </button>
             </div>
           </form>
-          <div className="py-4 px-2">
-            {/* Recent searches */}
+          {/* <div className="py-4 px-2">
+      
             <div className="mb-3 last:mb-0">
               <div className="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase px-2 mb-2">Recent searches</div>
               <ul className="text-sm">
@@ -204,7 +204,7 @@ function ModalSearch({
                 </li>
               </ul>
             </div>
-            {/* Recent pages */}
+         
             <div className="mb-3 last:mb-0">
               <div className="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase px-2 mb-2">Recent pages</div>
               <ul className="text-sm">
@@ -250,7 +250,7 @@ function ModalSearch({
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </Transition>
     </>
